@@ -29,4 +29,16 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
     }
+
+    public void profile(View v) {
+        Intent intent = new Intent(this, ProfileActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    public void cafe(View v) {
+        Intent intent = new Intent(this, CafeActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

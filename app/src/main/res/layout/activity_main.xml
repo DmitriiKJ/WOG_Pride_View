@@ -143,7 +143,8 @@
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         app:cardCornerRadius="30dp"
-                        android:backgroundTint="#1AA002">
+                        android:backgroundTint="#1AA002"
+                        android:onClick="cafe">
                         <ImageView
                             android:layout_width="60dp"
                             android:layout_height="60dp"
@@ -377,12 +378,12 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:src="@drawable/home"
-                app:tint="#8C8B8B"/>
+                app:tint="#54B85D"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Головна"
-                android:textColor="#8C8B8B"/>
+                android:textColor="#54B85D"/>
         </LinearLayout>
         <View
             android:layout_width="0dp"
@@ -452,7 +453,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:gravity="center">
+            android:gravity="center"
+            android:onClick="profile">
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"

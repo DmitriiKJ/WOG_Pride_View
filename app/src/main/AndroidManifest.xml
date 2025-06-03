@@ -29,6 +29,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".CalcActivity"/>
+        <activity android:name=".CafeActivity"/>
+        <activity android:name=".ProfileActivity"/>
     </application>
 
 </manifest>
